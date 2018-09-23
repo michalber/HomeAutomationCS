@@ -152,8 +152,8 @@
         </StackPanel>
 
         <StackPanel Grid.Row="2" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Vertical" Margin="30,0,0,0" Height="84" Width="94">
-            <Button x:ConnectionId='24' Name="comPortInput" Content="Connect"                            Background="#F9FFFFFF"/>
-            <Button x:ConnectionId='25' Name="closeDevice" Margin="0,20,0,0" Content="Disconnect"                           Background="White"/>
+            <Button x:ConnectionId='24' Name="comPortInput" Content="Connect"                           />
+            <Button x:ConnectionId='25' Name="closeDevice" Margin="0,20,0,0" Content="Disconnect"                          />
         </StackPanel>
 
         <StackPanel Grid.Row="3" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" Margin="70,10,0,0">
@@ -165,7 +165,7 @@
         </StackPanel>
 
         <StackPanel Grid.Row="4" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Margin="30,0,0,0">
-            <Button x:ConnectionId='22' Name="sendTextButton" Content="Write"                              Background="White"/>
+            <Button x:ConnectionId='22' Name="sendTextButton" Content="Write"                              />
         </StackPanel>
 
         <StackPanel Grid.Row="5" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" Margin="70,10,0,0">

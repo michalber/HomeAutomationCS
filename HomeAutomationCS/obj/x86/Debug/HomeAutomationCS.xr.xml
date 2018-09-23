@@ -98,7 +98,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Name" />
       <RootProperty Name="Content" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootEvent Name="Click" />
     </RootType>

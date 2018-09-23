@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\michu\source\repos\HomeAutomationCS\HomeAutomationCS\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9B7909B896B4F9C60EB9C5DEEC8B6C1A4230ED79786FB03E64DA56A2D5ED257B</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>659144CAC3B58B992BF1EC124FCA8AA68789D5EE73D41C07ED3B118F90890F40</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6753d1bb-4ac1-4d9c-9531-7f718192fe9d_1.0.0.0_x86__vags2z82d83q6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6753d1bb-4ac1-4d9c-9531-7f718192fe9d_vags2z82d83q6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6753d1bb-4ac1-4d9c-9531-7f718192fe9d</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\michu\source\repos\HomeAutomationCS\HomeAutomationCS\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-17T11:42:34.477</Modified>
+      <Modified>2018-09-19T14:01:28.389</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\michu\source\repos\HomeAutomationCS\HomeAutomationCS\bin\x86\Debug\HomeAutomationCS.exe">
       <PackagePath>entrypoint\HomeAutomationCS.exe</PackagePath>
-      <Modified>2018-09-17T11:42:33.964</Modified>
+      <Modified>2018-09-19T14:01:26.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -543,15 +543,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\michu\source\repos\HomeAutomationCS\HomeAutomationCS\bin\x86\Debug\HomeAutomationCS.xr.xml">
       <PackagePath>HomeAutomationCS.xr.xml</PackagePath>
-      <Modified>2018-09-17T11:36:48.883</Modified>
+      <Modified>2018-09-19T13:34:12.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\michu\source\repos\HomeAutomationCS\HomeAutomationCS\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-09-17T11:42:33.762</Modified>
+      <Modified>2018-09-19T14:01:26.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\michu\source\repos\HomeAutomationCS\HomeAutomationCS\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-09-17T11:42:33.762</Modified>
+      <Modified>2018-09-19T14:01:26.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -560,11 +560,11 @@
     <AppxPackagedFile Include="C:\Users\michu\source\repos\HomeAutomationCS\HomeAutomationCS\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-17T11:36:51.437</Modified>
+      <Modified>2018-09-19T13:48:44.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\michu\source\repos\HomeAutomationCS\HomeAutomationCS\bin\x86\Debug\Core\HomeAutomationCS.exe">
       <PackagePath>HomeAutomationCS.exe</PackagePath>
-      <Modified>2018-09-17T11:42:34.471</Modified>
+      <Modified>2018-09-19T14:01:28.374</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

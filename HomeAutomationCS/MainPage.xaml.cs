@@ -88,11 +88,11 @@ namespace HomeAutomationCS
         {
             var selection = ConnectDevices.SelectedItems;
 
-            //if (selection.Count <= 0)
-            //{
-            //    status.Text = "Select a device and connect";
-            //    return;
-            //}
+            if (selection.Count <= 0)
+            {
+                status.Text = "Select a device and connect";
+                return;
+            }
 
             DeviceInformation entry = (DeviceInformation)selection[0];
 
@@ -107,18 +107,18 @@ namespace HomeAutomationCS
                 // Configure serial settings
                 serialPort.WriteTimeout = TimeSpan.FromMilliseconds(1000);
                 serialPort.ReadTimeout = TimeSpan.FromMilliseconds(1000);
-                serialPort.BaudRate = 9600;
+                serialPort.BaudRate = 115200;
                 serialPort.Parity = SerialParity.None;
                 serialPort.StopBits = SerialStopBitCount.One;
                 serialPort.DataBits = 8;
                 serialPort.Handshake = SerialHandshake.None;
 
                 // Display configured settings
-                //status.Text = "Serial port configured successfully: ";
-                //status.Text += serialPort.BaudRate + "-";
-                //status.Text += serialPort.DataBits + "-";
-                //status.Text += serialPort.Parity.ToString() + "-";
-                //status.Text += serialPort.StopBits;
+                status.Text = "Serial port configured successfully: ";
+                status.Text += serialPort.BaudRate + "-";
+                status.Text += serialPort.DataBits + "-";
+                status.Text += serialPort.Parity.ToString() + "-";
+                status.Text += serialPort.StopBits;
 
                 // Set the RcvdText field to invoke the TextChanged callback
                 // The callback launches an async Read task to wait for data
